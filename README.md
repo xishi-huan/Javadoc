@@ -1,4 +1,4 @@
 ## .java文件
-#### [javacode](https://github.com/xishi-huan/xishi-huan.github.io/tree/master/code)
+#### [javacode](https://github.com/xishi-huan/Javadoc/tree/master/code)
 
 
