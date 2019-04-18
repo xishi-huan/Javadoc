@@ -1,3 +1,6 @@
+/**************************
+ * ArrayList<T>类的实现代码
+ **************************/
 public class MyArrayList<T> implements Iterable<T>
 {
     private static final int DEFAULT_CAPACITY=10;
