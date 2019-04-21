@@ -50,7 +50,7 @@ public class MyArrayList<T> implements Iterable<T>
         if(newCapacity < theSize)
             return;
         T[] old = theItems;
-        theItems = (T[]) new Object[newCapacity];
+        theItems = (T []) new Object[newCapacity];         //泛型数组的创建非法，使用类型转换来创建
         for(int i = 0;i < size();i++)
             theItems[i] = old[i];
     }
